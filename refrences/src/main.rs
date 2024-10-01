@@ -20,8 +20,8 @@ fn main() {
     let mut x1 = String::from("ji ha ");
     let x2 = &mut x1;
     //show error
-    update_word(&mut x1);
-    println!("{}", x1);
+    //  update_word(&mut x1);
+    //   println!("{}", x1);
     println!("{}", x2);
 }
 

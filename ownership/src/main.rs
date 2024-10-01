@@ -19,7 +19,7 @@ fn main() {
         let e = 3;
     }
 
-    println!("{}", e);
+    println!(""); //print the e
 }
 
 //function and ownership

@@ -71,7 +71,9 @@ fn parseconfigf(args: &[String]) -> (&str, &str) {
     (query, filepath)
 }
 */
-
+/*
+use std::env;
+use std::fs;
 fn main() {
     let args: Vec<String> = env::args().collect();
 
@@ -94,3 +96,4 @@ fn parseconfigf(args: &[String]) -> Config {
 
     Config { query, filepath }
 }
+*/

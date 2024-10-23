@@ -96,4 +96,5 @@ fn parseconfigf(args: &[String]) -> Config {
 
     Config { query, filepath }
 }
+
 */
